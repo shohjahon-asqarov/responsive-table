@@ -1,31 +1,38 @@
 .container {
-  padding-top: 100px;
+  padding: 100px 20px;
 }
 
 td,
 th {
   text-align: center;
   vertical-align: middle !important;
-  white-space: nowrap;
   cursor: pointer;
+  border: 1px solid rgb(200, 195, 195) !important;
 }
 
 .table {
   min-width: 1000px;
+  position: relative;
+  border-collapse: separate; /* Don't collapse */
+  border-spacing: 0;
 }
+
 
 .table th:first-child,
 .table td:first-child {
+  position: -webkit-sticky;
   position: sticky;
-  left: 0;
+  left: 0px;
 }
 
 .table th:nth-child(2),
 .table td:nth-child(2) {
+  position: -webkit-sticky;
   position: sticky;
-  left: 70px;
+  left: 73.5px;
 }
 
 .not {
   position: static !important;
+  background: transparent !important;
 }
