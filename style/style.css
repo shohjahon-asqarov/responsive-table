@@ -26,7 +26,7 @@ th {
 .table td:nth-child(2) {
   position: -webkit-sticky;
   position: sticky;
-  left: 59px;
+  left: 58px;
 }
 
 .not {
