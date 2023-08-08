@@ -4,9 +4,7 @@
 
 td,
 th {
-  text-align: center;
   vertical-align: middle !important;
-  cursor: pointer;
   border: 1px solid rgb(200, 195, 195) !important;
 }
 
@@ -16,7 +14,6 @@ th {
   border-collapse: separate; /* Don't collapse */
   border-spacing: 0;
 }
-
 
 .table th:first-child,
 .table td:first-child {
